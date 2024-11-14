@@ -1,6 +1,5 @@
 "use client";
 
-import { useEffect } from "react";
 import Image from "next/image";
 import img1 from "@/img/log.png";
 import img2 from "@/img/konten1.png";
