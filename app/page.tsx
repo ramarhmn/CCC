@@ -4,13 +4,8 @@ import { useEffect } from "react";
 import Image from "next/image";
 import img1 from "@/img/log.png";
 import img2 from "@/img/konten1.png";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
 export default function Home() {
-  useEffect(() => {
-    AOS.init();
-  }, []);
 
   return (
     <>
@@ -29,10 +24,10 @@ export default function Home() {
                 className=""
               />
             </div>
-            <h3 className="text-gray-300 text-xs tracking-widest" data-aos="fade-up">
+            <h3 className="text-gray-300 text-xs tracking-widest">
               CRETIVOX CREATIVE COMMUNITY
             </h3>
-            <h3 className="text-gray-300 text-xs tracking-widest" data-aos="fade-up">
+            <h3 className="text-gray-300 text-xs tracking-widest">
               #IMPACT #TERHUBUNG #TERBIMBING #TERSOROT
             </h3>
             <div className="flex justify-center" data-aos="fade-left">
