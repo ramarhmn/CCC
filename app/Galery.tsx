@@ -127,7 +127,7 @@ const Card = ({
     let maxZIndex = -Infinity;
 
     els.forEach((el) => {
-      let zIndex = parseInt(
+      const zIndex = parseInt(
         window.getComputedStyle(el).getPropertyValue("z-index")
       );
 
@@ -140,6 +140,8 @@ const Card = ({
   };
 
   useEffect(() => {
+    const currentCard = cardRef.current
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
@@ -151,13 +153,13 @@ const Card = ({
       { threshold: 0.5 }
     );
 
-    if (cardRef.current) {
-      observer.observe(cardRef.current);
+    if (currentCard) {
+      observer.observe(currentCard);
     }
 
     return () => {
-      if (cardRef.current) {
-        observer.unobserve(cardRef.current);
+      if (currentCard) {
+        observer.unobserve(currentCard);
       }
     };
   }, []);

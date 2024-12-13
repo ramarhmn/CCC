@@ -72,7 +72,7 @@ export default function Home() {
 
               <a
                 href="#kontak"
-                className="text-black text-sm bg-white font-semibold rounded-full hidden md:block justify-start mx-4 tracking-widest relative after:content-[''] after:block after:w-0 after:h-0.5 after:bg-bg-black after:transition-all after:duration-300 after:ease-in-out hover:after:w-full py-1 px-3"
+                className="text-black text-sm bg-white font-semibold rounded-full hidden md:block justify-start mx-4 tracking-widest relative after:content-[''] after:block after:w-0 after:h-0.5 after:bg-black after:transition-all after:duration-300 after:ease-in-out hover:after:w-full py-1 px-3"
               >
                 CONTACT
               </a>
@@ -534,7 +534,7 @@ export default function Home() {
           >
             <div className="flex flex-col ">
               <h2 className="text-5xl md:text-7xl font-bold text-[#023093]">
-                LET'S MAKE
+                LETS MAKE
               </h2>
               <h2 className="text-5xl md:text-7xl font-bold text-[#023093] mb-5">
                 AN IMPACT

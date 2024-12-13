@@ -38,7 +38,9 @@ import {
             className="origin-bottom-left whitespace-nowrap text-4xl font-black uppercase leading-[0.85] md:text-9xl md:leading-[0.85]"
           >
             #TERHUBUNG #TERBIMBING #TERSOROT
+            
           </motion.p>
+          
         </div>
       </section>
     );
